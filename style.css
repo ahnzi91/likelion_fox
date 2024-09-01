@@ -1,6 +1,12 @@
 /* Resets */
-body {
+body, p {
   margin: unset ;
+}
+
+h1 {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset ;
 }
 
 img {
