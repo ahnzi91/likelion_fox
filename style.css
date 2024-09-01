@@ -24,6 +24,7 @@ img {
 :root {
   font-family: "arial";
   font-size: 62.5%; /* 10px  */
+  line-height: 1.2; /* "arial" 폰트의 line-height */
 }
 
 body {
@@ -31,6 +32,13 @@ body {
 }
 
 /* Components */
+body {
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .viewport {
   display: flex;
   height: 100vh;
