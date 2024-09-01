@@ -29,3 +29,10 @@ img {
 .animal-main {
   box-shadow: inset 0 0 20px gold;
 }
+
+.animal-main::before {
+  content: "잔디";
+  background-image: url(images/green.png);
+  display: block; /* pseudo elements는 inline elements이기 때문에 block 속성을 정의해주어야 한다. */
+  height: 50px;
+}
