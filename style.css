@@ -13,6 +13,13 @@ img {
   vertical-align: top;
 }
 
+/* Variables */
+:root {
+  --color-brown-10: #E8BC9C;
+  --color-brown-20: #9C6035;
+  --color-brown-30: #46260E; 
+}
+
 /* Typography */
 :root {
   font-family: "arial";
@@ -41,11 +48,11 @@ body {
 }
 
 .animal-main {
-  background-color: #9C6035;
-  color: #E8BC9C;
+  background-color: var(--color-brown-20);
+  color: var(--color-brown-10);
 
   border-radius: 0 0 30px 30px;
-  border-bottom: 10px solid  #46260E;
+  border-bottom: 10px solid var(--color-brown-30);
 }
 
 .animal-main::before {
@@ -62,4 +69,5 @@ body {
 .animal-contents h1 {
   font-size: 3.6rem;
   font-weight: 700;
+  color: white ;
 }
