@@ -29,8 +29,6 @@ img {
 .animal-main {
   background-color: #9C6035;
   color: #E8BC9C;
-
-  padding: 10px 20px 47px 20px ;
 }
 
 .animal-main::before {
@@ -38,4 +36,8 @@ img {
   background-image: url(images/green.png);
   display: block; /* pseudo elements는 inline elements이기 때문에 block 속성을 정의해주어야 한다. */
   height: 50px;
+}
+
+.animal-contents {
+  padding: 10px 20px 47px 20px;
 }
