@@ -15,7 +15,12 @@ img {
 
 /* Typography */
 :root {
-  font-family: 'arial';
+  font-family: "arial";
+  font-size: 62.5%; /* 10px  */
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 /* Components */
@@ -52,4 +57,9 @@ img {
 
 .animal-contents {
   padding: 10px 20px 47px 20px;
+}
+
+.animal-contents h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
 }
