@@ -42,13 +42,17 @@ body {
 .viewport {
   display: flex;
   height: 100vh;
+
+  padding: 40px;
+  box-sizing: border-box;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .viewport-center {
   width: 300px; /* flex-basis: 300px; min-width: 300px; 을 함축하고 있음 */
   /* height는 콘텐츠의 크기만큼 늘어나기 때문에 따로 설정을 하지 않는다. */
-
-  margin: auto;
 }
 
 .animal-cover {
