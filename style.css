@@ -12,4 +12,5 @@ body {
 
 .viewport-center {
   box-shadow: inset 0 0 20px blue;
+  margin: auto;
 }
