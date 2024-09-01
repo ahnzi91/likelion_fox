@@ -7,6 +7,11 @@ img {
   vertical-align: top;
 }
 
+/* Typography */
+:root {
+  font-family: 'arial';
+}
+
 /* Components */
 .viewport {
   display: flex;
