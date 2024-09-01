@@ -9,13 +9,11 @@ img {
 
 /* Components */
 .viewport {
-  box-shadow: inset 0 0 20px red;
   display: flex;
   height: 100vh;
 }
 
 .viewport-center {
-  box-shadow: inset 0 0 20px blue;
   width: 300px; /* flex-basis: 300px; min-width: 300px; 을 함축하고 있음 */
   /* height는 콘텐츠의 크기만큼 늘어나기 때문에 따로 설정을 하지 않는다. */
 
@@ -29,6 +27,9 @@ img {
 .animal-main {
   background-color: #9C6035;
   color: #E8BC9C;
+
+  border-radius: 0 0 30px 30px;
+  border-bottom: 10px solid  #46260E;
 }
 
 .animal-main::before {
